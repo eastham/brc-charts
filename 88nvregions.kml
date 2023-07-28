@@ -9,7 +9,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
@@ -19,7 +19,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin1">
@@ -57,7 +57,7 @@
 			<width>0</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7d0880fd</color>
+			<color>7aff02fc</color>
 		</PolyStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin0">
@@ -75,7 +75,7 @@
 			<width>0</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>7aff02fc</color>
+			<color>7d0880fd</color>
 		</PolyStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin1">
@@ -201,14 +201,13 @@
 		</Placemark>
 		<Placemark>
 			<name>Gerlach Corridor: 4000-10000 0-360</name>
-			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.486174159293,40.60803877656038,0 -119.4116568264347,40.56294260839093,0 -119.2387338708813,40.73377805999277,0 -119.2072866349602,40.7530288764444,0 -119.2404333976673,40.76188199633559,0 -119.3399107461387,40.73098460803849,0 -119.486174159293,40.60803877656038,0 
+							-119.486174159293,40.60803877656038,0 -119.4113212884295,40.56327096810475,0 -119.3424224027944,40.64698598563742,0 -119.2387338708813,40.73377805999277,0 -119.2072866349602,40.7530288764444,0 -119.2404333976673,40.76188199633559,0 -119.3399107461387,40.73098460803849,0 -119.486174159293,40.60803877656038,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
