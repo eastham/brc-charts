@@ -5,6 +5,16 @@
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
@@ -12,7 +22,7 @@
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin</styleUrl>
@@ -20,16 +30,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin23">
@@ -187,14 +187,13 @@
 		<open>1</open>
 		<Placemark>
 			<name>Scenic: 4500-7000 0-360</name>
-			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.2782375469059,40.77230449482111,0 -119.2920004731804,40.74563236803539,0 -119.240644769083,40.76172671105528,0 -119.2067605155537,40.75272132091563,0 -119.1633260934613,40.7684852681213,0 -119.1597215656086,40.77476836428581,0 -119.1072140213173,40.7839354061781,0 -119.1629078766545,40.81401033323692,0 -119.2200239375065,40.817534324626,0 -119.2782375469059,40.77230449482111,0 
+							-119.2782375469059,40.77230449482111,0 -119.2920004731804,40.74563236803539,0 -119.240644769083,40.76172671105528,0 -119.2067605155537,40.75272132091563,0 -119.1633260934613,40.7684852681213,0 -119.1597215656086,40.77476836428581,0 -119.1072140213173,40.7839354061781,0 -119.1595437794464,40.81754039787495,0 -119.2236889045963,40.82542614669549,0 -119.2782375469059,40.77230449482111,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -203,7 +202,7 @@
 		<Placemark>
 			<name>Gerlach Corridor: 4000-10000 0-360</name>
 			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -217,7 +216,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Empire/Razorback/Pattern: 4000-10000 0-360</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>

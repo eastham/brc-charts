@@ -9,7 +9,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
@@ -23,6 +23,16 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin</styleUrl>
@@ -99,6 +109,24 @@
 		</PolyStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80050505</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -218,6 +246,24 @@
 			<color>80050505</color>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80050505</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin00">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -271,7 +317,6 @@
 		<open>1</open>
 		<Placemark>
 			<name>At airport: 3000-4500 0-360</name>
-			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin00</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -374,13 +419,13 @@
 		</Placemark>
 		<Placemark>
 			<name>Scenic exit: 3000-8000 0-360</name>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.1663423467394,40.78861484298741,0 -119.1300117626849,40.75788368986126,0 -119.0899543820102,40.77067081065996,0 -119.1583075566307,40.80907829931971,0 -119.1663423467394,40.78861484298741,0 
+							-119.1663423467394,40.78861484298741,0 -119.1300117626849,40.75788368986126,0 -119.0899543820102,40.77067081065996,0 -119.1558835039471,40.81487044407965,0 -119.1663423467394,40.78861484298741,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -388,7 +433,6 @@
 		</Placemark>
 		<Placemark>
 			<name>Pattern: 3500-4800 0-360</name>
-			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin700</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -403,14 +447,13 @@
 		</Placemark>
 		<Placemark>
 			<name>Point 1: 3900-15000 0-360</name>
-			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.2464553633314,40.78486278937179,0 -119.2298673461336,40.77153804472513,0 -119.2166667675113,40.7951956690743,0 -119.2328019228285,40.80064883514829,0 -119.2464553633314,40.78486278937179,0 
+							-119.2505496220834,40.78796798254738,0 -119.2298673461336,40.77153804472513,0 -119.2166667675113,40.7951956690743,0 -119.2371210607802,40.80322706321859,0 -119.2505496220834,40.78796798254738,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -418,14 +461,13 @@
 		</Placemark>
 		<Placemark>
 			<name>Point 2:  3900-15000 0-360</name>
-			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.2347880636755,40.80121290434432,0 -119.2159619354225,40.79425614485255,0 -119.1943097155576,40.81511156780827,0 -119.2226180831045,40.81906739344868,0 -119.2347880636755,40.80121290434432,0 
+							-119.2389539414496,40.80392085414799,0 -119.2159619354225,40.79425614485255,0 -119.1934453198826,40.82148613602249,0 -119.2233832434929,40.82496347741467,0 -119.2389539414496,40.80392085414799,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -433,14 +475,13 @@
 		</Placemark>
 		<Placemark>
 			<name>Point 3: 3900-15000 0-360</name>
-			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.1952990034159,40.81502577001358,0 -119.2096308237312,40.80247186793743,0 -119.1658553527052,40.78779131155833,0 -119.1565995057349,40.80997472912585,0 -119.1952990034159,40.81502577001358,0 
+							-119.1946670060207,40.82194909913377,0 -119.2096308237312,40.80247186793743,0 -119.1658553527052,40.78779131155833,0 -119.1555744434662,40.81638206777815,0 -119.1946670060207,40.82194909913377,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -448,7 +489,6 @@
 		</Placemark>
 		<Placemark>
 			<name>Point 4: 4800-15000 0-360</name>
-			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -479,7 +519,7 @@
 		<Placemark>
 			<name>Other: 4000-15000 0-360</name>
 			<visibility>0</visibility>
-			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
