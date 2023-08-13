@@ -111,7 +111,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark>
-			<name>Nearby InsideTrashFence 3500-10000 000-360</name>
+			<name>Nearby InsideTrashFence: 3500-10000 000-360</name>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
