@@ -53,6 +53,7 @@
 		<open>1</open>
 		<Placemark>
 			<name>Nearby 5nm: 3500-10000 000-360</name>
+			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -67,6 +68,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Nearby brdempire: 3500-10000 000-360</name>
+			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -103,6 +105,21 @@
 					<LinearRing>
 						<coordinates>
 							-121.9596223828631,37.3754026041682,0 -121.9482002593759,37.36657052506342,0 -121.9391508438927,37.3617929868543,0 -121.9251559847218,37.34332592004701,0 -121.908186909377,37.34402020740114,0 -121.9010441767134,37.35065040351402,0 -121.9063567871466,37.36433100919324,0 -121.9291701709518,37.38141528485191,0 -121.9549743933005,37.3893186254009,0 -121.9596223828631,37.3754026041682,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Nearby inside_trash_fence 3500-10000 000-360</name>
+			<visibility>0</visibility>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-119.2335428239146,40.78286536919816,0 -119.2078941264011,40.76346963686519,0 -119.1761926603366,40.7763051267935,0 -119.1829328081624,40.80245461137433,0 -119.2172688176675,40.80622990804483,0 -119.2335428239146,40.78286536919816,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
