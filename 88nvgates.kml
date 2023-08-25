@@ -385,7 +385,7 @@
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							-119.246201368452,40.75658054076294,0 -119.2371971006363,40.74152959366412,0 -119.2163980105666,40.75486138944335,0 -119.2195912399211,40.76036280669596,0 -119.246201368452,40.75658054076294,0 
+							-119.2583569471264,40.75429672202413,0 -119.249887874186,40.74093058594017,0 -119.2163980105666,40.75486138944335,0 -119.2195912399211,40.76036280669596,0 -119.2583569471264,40.75429672202413,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -513,6 +513,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Landing 25: 3700-4400 220-270</name>
+			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
@@ -527,6 +528,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Takeoff 25: 3500-4500 220-270</name>
+			<visibility>0</visibility>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
